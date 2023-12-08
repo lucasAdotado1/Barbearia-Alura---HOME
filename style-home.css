@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 .principal {
-    background: #FFFFFF;
+    background: #CCCCCC;
     padding: 30px;
 }
 
@@ -44,19 +44,19 @@ nav a:hover {
 
 .titulo-centralizado {
     text-align: center;
-    font-weight: bold;
-    font-size: 50px;
-    font-style: italic;
 
 }
 
 .texto {
     border-top: 50px;
-    font-size: 17px;
     padding: 20px;
 }
 
-.negrito, .autoestima {
+.negrito {
+    font-weight: bold;
+}
+
+.autoestima {
     font-weight: bold;
     font-style:italic;
 }
@@ -75,10 +75,6 @@ em strong {
 
 .itens {
     font-style: italic;
-    font-size: 18px;
-    text-align: center;
-    padding-left: 20px;
-    display: inline-block
 }
 
 .beneficios {
@@ -95,8 +91,6 @@ ul {
 
 .imagembeneficios {
     width: 50%;
-    padding-left: 50%;
-    display:inline-block
 }
 
 footer {
